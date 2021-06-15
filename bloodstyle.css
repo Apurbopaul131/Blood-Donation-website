@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color:#FFFFFF
+    
+}
+.row{
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+.column-text{
+    display: flex;
+    align-items: center;
+    color: rgb(228, 24, 24);
+}
+.Do-you-know{
+    width:60%;
+    margin: 50px auto;
+    text-align: center;
+}
+.Do-you-know h3{
+    color: rgb(228, 24, 24);
+    font-weight: 600;
+}
+.col-design{
+    border: 1px solid red;
+    margin: 20px;
+    border-radius:5px;
+    text-align: center;
+    transition: 0.5s;
+    
+    
+}
+.col h3{
+    padding-top: 30px;
+    color:rgb(228, 24, 24) ;
+}
+.col p{
+    padding: 0px 100px;
+}
+h5{
+    color:rgb(228, 24, 24) ;
+    font-weight: 600;
+}
+.col-design:hover{
+    box-shadow:2px 2px 4px red;
+}
+.four-col{
+    text-align:center;
+}
+.four-col img{
+  margin-top:50%;
+  width: 300px;
+  height: 300px;
+}
+.form{
+    width: 100%;
+    margin: auto;
+    text-align:center;
+    
+}
+form{
+    margin: 50px auto;
+    width: 500px;
+    height: auto; 
+    border: 1px solid red;
+    padding:50px;
+   transition:0.5s;
+  
+
+}
+.input{
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 5px;
+  
+   
+}
+.input:focus{
+    background-color: black;
+    width: 90%;
+    padding:5px;
+    color: white;
+}
+input[type=submit]{
+    padding: 5px 10px;
+    
+    
+   
+    border: 1px solid green;
+    border-radius: 5px;
+    background-color:green;
+    cursor: pointer;
+    
+}
+input[type=submit]:hover{
+    border: #f44336;
+    background-color:#f44336;
+    transition:1s;
+}
+.about-page{
+    margin: auto;
+    text-align: center;
+}
